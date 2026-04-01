@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harjutus 10</title>
+</head>
+<body>
+    <h1>Harjutus 10</h1>
+
+    <form action="#" method="post">
+        <p>
+            <label for="eesnimi">Eesnimi:</label><br>
+            <input type="text" id="eesnimi" name="eesnimi">
+        </p>
+
+        <p>
+            <label for="perenimi">Perenimi:</label><br>
+            <input type="text" id="perenimi" name="perenimi">
+        </p>
+
+        <p>Sugu:</p>
+        <p>
+            <input type="radio" id="mees" name="sugu" value="mees">
+            <label for="mees">Mees</label><br>
+            <input type="radio" id="naine" name="sugu" value="naine">
+            <label for="naine">Naine</label>
+        </p>
+
+        <p>
+            <label for="email">E-post:</label><br>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="parool">Parool:</label><br>
+            <input type="password" id="parool" name="parool">
+        </p>
+
+        <p>
+            <label for="sunniaeg">Sünniaeg:</label><br>
+            <input type="date" id="sunniaeg" name="sunniaeg">
+        </p>
+
+        <p>
+            <label for="riik">Riik:</label><br>
+            <select id="riik" name="riik">
+                <option value="eesti">Eesti</option>
+                <option value="soome">Soome</option>
+                <option value="rootsi">Rootsi</option>
+                <option value="lati">Läti</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="info">Lisainfo:</label><br>
+            <textarea id="info" name="info" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" id="noustun" name="noustun">
+            <label for="noustun">Nõustun tingimustega</label>
+        </p>
+
+        <p>
+            <button type="submit">Saada</button>
+            <button type="reset">Tühjenda</button>
+        </p>
+    </form>
+</body>
+</html>
